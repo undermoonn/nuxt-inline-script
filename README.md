@@ -9,24 +9,24 @@ Bundle script into html head with nuxt shared build config.
 
 ## Quick Setup
 
-1. Add `nuxt-inline-module` dependency to your project
+1. Add `nuxt-inline-script` dependency to your project
 
 ```bash
 # Using pnpm
-pnpm add -D nuxt-inline-module
+pnpm add -D nuxt-inline-script
 
 # Using yarn
-yarn add --dev nuxt-inline-module
+yarn add --dev nuxt-inline-script
 
 # Using npm
-npm install --save-dev nuxt-inline-module
+npm install --save-dev nuxt-inline-script
 ```
 
-2. Add `nuxt-inline-module` to the `modules` section of `nuxt.config.ts`
+2. Add `nuxt-inline-script` to the `modules` section of `nuxt.config.ts`
 
 ```js
 export default defineNuxtConfig({
-  modules: ['nuxt-inline-module'],
+  modules: ['nuxt-inline-script'],
   inlineScript: {
     buildEntry: ['path/to/script']
   }
@@ -63,11 +63,11 @@ npm run release
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/nuxt-inline-module/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
-[npm-version-href]: https://npmjs.com/package/nuxt-inline-module
-[npm-downloads-src]: https://img.shields.io/npm/dm/nuxt-inline-module.svg?style=flat&colorA=18181B&colorB=28CF8D
-[npm-downloads-href]: https://npmjs.com/package/nuxt-inline-module
-[license-src]: https://img.shields.io/npm/l/nuxt-inline-module.svg?style=flat&colorA=18181B&colorB=28CF8D
-[license-href]: https://npmjs.com/package/nuxt-inline-module
+[npm-version-src]: https://img.shields.io/npm/v/nuxt-inline-script/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-version-href]: https://npmjs.com/package/nuxt-inline-script
+[npm-downloads-src]: https://img.shields.io/npm/dm/nuxt-inline-script.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-downloads-href]: https://npmjs.com/package/nuxt-inline-script
+[license-src]: https://img.shields.io/npm/l/nuxt-inline-script.svg?style=flat&colorA=18181B&colorB=28CF8D
+[license-href]: https://npmjs.com/package/nuxt-inline-script
 [nuxt-src]: https://img.shields.io/badge/Nuxt-18181B?logo=nuxt.js
 [nuxt-href]: https://nuxt.com

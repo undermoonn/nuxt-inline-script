@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "nuxt-inline-module-playground",
+  "name": "nuxt-inline-script-playground",
   "type": "module",
   "scripts": {
     "dev": "nuxi dev",
