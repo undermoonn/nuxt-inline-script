@@ -30,7 +30,7 @@ export default defineNuxtModule<ModuleOptions>({
       const outputDir = resolve(config.build?.outDir!, '_inline_script')
 
       const pluginCode = await readFile(
-        resolve(__dirname, './runtime/nitro/plugins/render.ts'),
+        resolve(__dirname, `./runtime/nitro/plugins/render.mjs`),
         'utf-8'
       )
 
@@ -57,7 +57,7 @@ export default defineNuxtModule<ModuleOptions>({
           const code = await readFile(outputFile, 'utf-8')
 
           await writeFile(
-            resolve(__dirname, `./runtime/nitro/plugins/render-injected-${index}.ts`),
+            resolve(__dirname, `./runtime/nitro/plugins/render-injected-${index}.mjs`),
             pluginCode.replace('<!-- inline script inject -->', `<script>${code}</script>`),
             'utf-8'
           )
