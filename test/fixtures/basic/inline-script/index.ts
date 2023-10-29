@@ -1,0 +1,3 @@
+;(() => {
+  window.inlineScript = true
+})()

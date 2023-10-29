@@ -1,7 +1,9 @@
 import MyModule from '../../../src/module'
+import path from 'node:path'
 
 export default defineNuxtConfig({
-  modules: [
-    MyModule
-  ]
+  modules: [MyModule],
+  inlineScript: {
+    buildEntry: [path.resolve(__dirname, './inline-script/index.ts')]
+  }
 })
