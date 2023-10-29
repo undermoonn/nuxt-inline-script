@@ -1,6 +1,6 @@
 {
   "name": "nuxt-inline-script",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Bundle script into html head with nuxt shared build config.",
   "repository": "https://github.com/undermoonn/nuxt-inline-script",
   "license": "MIT",
