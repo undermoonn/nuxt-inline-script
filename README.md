@@ -1,4 +1,6 @@
-# Nuxt Inline Script
+# 🚧 Nuxt Inline Script
+
+> This module is under development, **DO NOT** use in production.
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
